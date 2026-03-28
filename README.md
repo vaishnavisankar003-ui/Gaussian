@@ -9,11 +9,11 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Algorithm
 ```
-1.Start the program
-2.Import the necessary libraries(numpy,scipy.linalg)
-3.Define the matrix using numpy
-4.Use lu(),lu_solve(),lu_factor() to get the solutions
-5.End the program 
+1Input matrix dimensions and initialize augmented matrix and solution vector.
+2.Populate the augmented matrix with user inputs.
+3.Perform Gaussian elimination to reduce the matrix to upper triangular form, ensuring no division by zero.
+4.Back substitute to compute solution values for the variables.
+5.Print the solution vector formatted to two decimal places
 ```
 ## Program:
 ```
